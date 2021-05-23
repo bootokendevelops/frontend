@@ -59,9 +59,6 @@ export default function Roadmap() {
               Additional CEX Applications
           </p>
             <p>
-                Additional CEX Applications
-            </p>
-            <p>
                 Larger scale marketing
             </p>
         </VerticalTimelineElement>
