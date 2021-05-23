@@ -50,7 +50,18 @@ export default {
         alt: 'wallet',
       },
     ],
+    tech2: [
+      {
+        img:process.env.PUBLIC_URL + '/assets/techrate.png',
+        link:'https://bootoken.org/assets/BooAuditReport.pdf'
+      },
+      {
+        img:process.env.PUBLIC_URL + '/assets/dx-lock.png',
+        link:'https://dxsale.app/app/pages/dxlockview?id=1&add=0x9F644E1d5bFd3e8BE73dAbba492ce38942bB51a4&type=lplock&chain=BSC'
+      }
+    ],
     desc: `%5 Re-distributed to Holders And %5 Liquidity`,
+    lock: `We have audit report and liquidity is locked until 2026`
   },
   contact: {
     title: 'Join us!',
