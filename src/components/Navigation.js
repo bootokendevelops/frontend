@@ -54,7 +54,7 @@ export default function Navigation() {
                     <div className="hidden sm:block sm:ml-6">
                       <div className="flex  space-x-4">
                         {content.nav.links.map((link, index) => {
-                          if (link.text === 'Buy Boo')
+                          if (link.text === 'Buy Boo' || link.text === 'Whitepaper')
                           {
                             return (
                                 <a href={link.to} target="_blank" rel="noopener noreferrer">
