@@ -8,7 +8,7 @@ export default {
       { text: 'Roadmap', to: 'roadmap'},
       { text: 'Community', to: 'community'},
       { text: 'Buy Boo', to:'https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xe52246c0647bcd730d62ec58432409901f0e6798'},
-      { text: 'Whitepaper', to:'https://bootoken.org/assets/whitepaper.pdf'}
+      { text: 'Whitepaper', to:process.env.PUBLIC_URL + '/assets/whitepaper.pdf'}
     ],
   },
   header: {
